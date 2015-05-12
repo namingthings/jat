@@ -3,6 +3,8 @@
 .ignore*
 .classpath
 .project
+*.iml
+.idea
 test80.mp3
 test82.mp3
 test88.mp3
