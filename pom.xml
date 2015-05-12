@@ -139,8 +139,6 @@
                 </configuration>
             </plugin>
       </plugins>
-      <sourceDirectory>src</sourceDirectory>
-      <testSourceDirectory>srctest</testSourceDirectory>
    </build>
    <reporting>
       <plugins>
