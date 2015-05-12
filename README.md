@@ -1,31 +1,13 @@
 [![Build Status](https://secure.travis-ci.org/namingthings/jat.png?branch=master)](http://travis-ci.org/namingthings/jat)
 [![Coverage Status](https://coveralls.io/repos/namingthings/jat/badge.svg?branch=master)](https://coveralls.io/r/namingthings/jat?branch=master)
 
-JAudiotagger is a JAVA API for audio metatagging. Both a common API and format specific APIS are available, currently supports
- ID3,Flac,OggVorbis,Wma and Mp4.
+JAT - Java Audio Tagger
+=======================
 
-Build is with Maven
- pom.xml              :Maven build file
+JAT is a java API for audio tagging currently supporting ID3, Flac, Ogg Vorbis, Wma and Mp4.
 
-Directory structure as follows:
- Under source control:
- src                  :source code directory 
- srctest              :source test code directory
- www                  :java doc directory
- testdata             :test files for use by the junit tests, not all tests are included in the distribution because of copyright
- target               :contains the jaudiotagger***.jar built from maven
+JAT is a fork of [jaudiotagger](http://www.jthink.net/jaudiotagger/) intended to provide a java library that is available in maven central and is completely decoupled from programms relying on it.
 
-IDE files:
- jaudiotagger.iml     :JetBrains Intellij Module
- jaudiotagger.ipr     :JetBrains Intellij Project
-
-License:
- license.txt :license file
- 
- 
-Build details:
-
-Install Maven2
-Run
-  mvn install
-to compile, test and install
+Licence
+=======
+JAT is published under the terms of the GNU Lesser General Public License 2.1+. See [license.txt](license.txt)
