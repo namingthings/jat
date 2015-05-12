@@ -1,4 +1,5 @@
 [![Build Status](https://secure.travis-ci.org/namingthings/jat.png?branch=master)](http://travis-ci.org/namingthings/jat)
+[![Coverage Status](https://coveralls.io/repos/namingthings/jat/badge.svg?branch=master)](https://coveralls.io/r/namingthings/jat)
 
 JAudiotagger is a JAVA API for audio metatagging. Both a common API and format specific APIS are available, currently supports
  ID3,Flac,OggVorbis,Wma and Mp4.
